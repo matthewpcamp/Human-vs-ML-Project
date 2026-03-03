@@ -41,7 +41,13 @@ You may work alone or with a partner. You may choose to work with the provided P
 
 ### Pseudo-Code
 ```text
-Write your human decision rules here.
+    IF G1 & G2 < 8:
+        Predict Low grade
+    ELSE G1 & G2 < 12:
+        Predict Medium Grade
+    ELSE:
+        Predict High Grade
+
 ```
 
 When examining the data and visualizations, we focused on the features ___ and ___ because ___.

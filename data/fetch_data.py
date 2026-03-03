@@ -1,3 +1,7 @@
+
+#Includes getting started with making the graphs at the bottom of the file.
+
+
 from ucimlrepo import fetch_ucirepo
 import pandas as pd
 import seaborn as sns
@@ -26,13 +30,9 @@ print(student_performance.variables)
 feature_names = student_performance.variables[student_performance.variables['role'] == 'Feature']['name'].tolist()
 
 
-def plot_G2_vs_G3(features=None, targets=None, save_path=None, show=False):
-	"""Plot `G2` vs `G3` using the provided features/targets.
+#Change G2 vs G3 though the code to change the graphs
 
-	If `targets` contains `G3` as a column or series it will be combined
-	with `features` for plotting.
-	"""
-	# Prepare dataframe
+def plot_G2_vs_G3(features=None, targets=None, save_path=None, show=False):
 	if features is None:
 		df_feat = X.copy()
 	else:
@@ -43,7 +43,6 @@ def plot_G2_vs_G3(features=None, targets=None, save_path=None, show=False):
 	else:
 		df_tgt = targets
 
-	# Ensure targets is a DataFrame
 	if df_tgt is None:
 		df_full = df_feat.copy()
 	else:
