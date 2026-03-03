@@ -18,22 +18,23 @@ You may work alone or with a partner. You may choose to work with the provided P
 ---
 
 **Team Members:**  
-- Name 1  
-- Name 2 (if applicable)  
+- Felix
+- Gavin
+- Matthew  
 
 **Dataset Used:**  
-(e.g. Penguins, Iris, Titanic, etc.)
+(Student Preformance)
 
 **Source:**  
-(UCI / Kaggle / Provided dataset)
+(UCI)
 
 **Target Variable (What we are predicting):**  
-(e.g. species, survival, diagnosis)
+(Predicitng student Final Grade (G3))
 
 **Features Used:**  
-- Feature 1  
-- Feature 2  
-- Feature 3
+- Grade 1  
+- Grade 2  
+- Final Grade 
 
 **[Video Review](https://)**
 
