@@ -51,21 +51,21 @@ You may work alone or with a partner. You may choose to work with the provided P
 
 ```
 
-When examining the data and visualizations, we focused on the features ___ and ___ because ___.
+When examining the data and visualizations, we focused on the features G1 and G2 and G3 because of the correlation between the 3. As the lower the grade (most times) for either G1 or G2 the lower overall grade for G3.
 
-The plots/tables suggested a possible threshold for ___, and we considered values above or below this point to see how they might relate to ___.
+The plots/tables suggested a possible threshold for G3, and we considered values above or below this point to see how they might relate to G1 or G2.
 
 From the summary tables and visualizations, it appeared that ___ could influence classification, which led us to ___ in our decision rules.
 
 ### Confusion Matrix
 
-Accuracy: ?
+Accuracy: 86.15%  
 
-| Actual \ Predicted | Class 1 | Class 2 | Class 3 |
-|-------------------|---------|---------|---------|
-| **Class 1**       |         |         |         |
-| **Class 2**       |         |         |         |
-| **Class 3**       |         |         |         |
+| Actual \\ Predicted | Low (Class 1) | Medium (Class 2) |High (Class 3)|
+|-------------------|---------------|------------------|----------------|
+| **Low**           | 2             | 7                | 0              |
+| **Medium**        | 3             | 69               | 9              |
+| **High**          | 0             | 8                | 97             |
 
 One example where our algorithm worked well is when the inputs were ___, leading to a correct prediction of ___ because ___.
 
