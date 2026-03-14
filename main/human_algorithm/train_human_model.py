@@ -32,7 +32,7 @@ train_df, test_df = train_test_split(
     stratify=df['actual_category']
 )
 
-# 3. run the human model on the test split
+# run the human model on the test version
 # human_classify looks at G1 and G2 and returns Low/Medium/High
 #                         (it ignores G3 even though we pass it)
 test_df['human_prediction'] = test_df.apply(
